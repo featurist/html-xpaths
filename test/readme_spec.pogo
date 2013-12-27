@@ -12,11 +12,6 @@ describe 'README.md'
             throw (@new Error "README.md should contain the following text:\n\n#(expected examples)\n\n")
 
 examples markdown () =
-    argument values = { "locator" = "foo" }
-    result = ''
-    md (string) =
-        result = result + string + '\n'
-
     Object.keys(HTML.prototype).map (example for).join("\n")
 
 example for (method) =
