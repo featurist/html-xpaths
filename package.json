@@ -1,6 +1,6 @@
 {
   "name": "html-xpaths",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DSL to generate XPaths for matching HTML elements",
   "main": "js/html.js",
   "directories": {
@@ -9,10 +9,12 @@
   "scripts": {
     "test": "make test"
   },
-  "author": "",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/featurist/html-xpaths.git"
+  },
   "dependencies": {
-    "xpath-builder": "0.0.1"
+    "xpath-builder": "0.0.2"
   },
   "devDependencies": {
     "pogo": "~0.6.4",
@@ -21,5 +23,16 @@
     "xpath": "0.0.5",
     "xmldom": "~0.1.17",
     "cheerio": "~0.12.4"
-  }
+  },
+  "keywords": [
+    "xpath",
+    "html",
+    "dsl"
+  ],
+  "author": {
+    "name": "Josh Chisholm",
+    "email": "joshchisholm@gmail.com",
+    "url": "http://featurist.co.uk/"
+  },
+  "license": "MIT"
 }
