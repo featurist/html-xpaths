@@ -1,0 +1,25 @@
+{
+  "name": "html-xpaths",
+  "version": "0.0.1",
+  "description": "DSL to generate XPaths for matching HTML elements",
+  "main": "js/html.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xpath-builder": "0.0.1"
+  },
+  "devDependencies": {
+    "pogo": "~0.6.4",
+    "mocha": "~1.16.2",
+    "should": "~2.1.1",
+    "xpath": "0.0.5",
+    "xmldom": "~0.1.17",
+    "cheerio": "~0.12.4"
+  }
+}
