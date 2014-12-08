@@ -7,7 +7,7 @@ describe 'README.md'
 
     it 'includes an example for each html method'
         expected examples = examples markdown()
-        readme md = fs.read file!("#(__dirname)/../README.md").to string()
+        readme md = fs.read file("#(__dirname)/../README.md") ^!.to string()
         if (readme md.index of (expected examples) == -1)
             throw (@new Error "README.md should contain the following text:\n\n#(expected examples)\n\n")
 

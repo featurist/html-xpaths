@@ -17,12 +17,13 @@
     "xpath-builder": "0.0.2"
   },
   "devDependencies": {
-    "pogo": "~0.6.4",
+    "bluebird": "^2.3.11",
+    "cheerio": "~0.12.4",
     "mocha": "~1.16.2",
+    "pogo": "^0.9.6",
     "should": "~2.1.1",
-    "xpath": "0.0.5",
     "xmldom": "~0.1.17",
-    "cheerio": "~0.12.4"
+    "xpath": "0.0.5"
   },
   "keywords": [
     "xpath",
