@@ -23,7 +23,7 @@
     "pogo": "^0.9.10",
     "should": "^6.0.1",
     "xmldom": "^0.1.19",
-    "xpath": "0.0.5"
+    "xpath": "0.0.6"
   },
   "keywords": [
     "xpath",
